@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: ru-RU
   baseUrl: Detonator2103.github.io/BE-ru-CommunityDataBase
   ignorePatterns:
     - private
