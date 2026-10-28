@@ -163,7 +163,7 @@ plugins:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
@@ -273,6 +273,13 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: github:Detonator2103/quartz-becdb-toc-drawer
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: left
+      priority: 40
 layout:
   groups:
     toolbar:

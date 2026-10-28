@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "quartz-becdb-toc-drawer": {
+      "source": "github:Detonator2103/quartz-becdb-toc-drawer",
+      "resolved": "https://github.com/Detonator2103/quartz-becdb-toc-drawer.git",
+      "commit": "77f0438920925c912e0e1221de6be481c80ddc23",
+      "installedAt": "2026-10-27T19:27:21.992Z"
+    }
+  }
+}
