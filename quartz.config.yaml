@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: BE:CDB
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -267,12 +267,19 @@ plugins:
       priority: 15
       display: all
   - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
+    enabled: false
     options:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: github:Detonator2103/quartz-becdb-toc-drawer
+    enabled: false
+    options: {}
+    order: 50
+    layout:
+      position: left
+      priority: 40
   - source: github:Detonator2103/quartz-becdb-toc-drawer
     enabled: true
     options: {}
