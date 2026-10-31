@@ -1,5 +1,7 @@
 ---
 title: Главная
+socialDescription: Главная
+socialImage: preview.png
 ---
 
 Добро пожаловать в Базу Данных Сообщества Bullet Echo!
