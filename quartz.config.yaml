@@ -288,7 +288,7 @@ plugins:
     enabled: true
     options:
       folderDefaultState: collapsed
-      folderClickBehavior: link
+      folderClickBehavior: collapse
       useSavedState: false
     order: 50
     layout:
