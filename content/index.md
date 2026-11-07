@@ -69,6 +69,9 @@ BE: Community DataBase (CDB или КДБ) — это информационна
 ---
 # Ссылки
 
+> **Новости Community DataBase:**
+> 1. [Телеграм-канал Дето](https://t.me/deto_archive) — личный канал не конкретно про CDB, но его обновления и детали разработки выкладываю туда
+
 > **Сообщества Bullet Echo:**
 > 1. [Телеграм новостной канал](https://t.me/bulletecho) (ру)
 > 2. [Телеграм группа](https://t.me/bulletecho_chat) (основное для ру)
@@ -80,8 +83,8 @@ BE: Community DataBase (CDB или КДБ) — это информационна
 > 8. [Youtube](https://www.youtube.com/c/BulletEcho)
 
 > **Игра:**
-> 9. [Сайт Поддержки ZeptoLab](https://zepto.helpshift.com/hc/ru/10-bullet-echo) — официальные статьи от разработчиков на технические и базовые темы
->10. [Bullet Echo в магазине](https://zep.tl/PlayBulletEcho)
+> 1. [Сайт Поддержки ZeptoLab](https://zepto.helpshift.com/hc/ru/10-bullet-echo) — официальные статьи от разработчиков на технические и базовые темы
+> 2. [Установить Bullet Echo](https://zep.tl/PlayBulletEcho)
 
 ---
 # Политика использования
