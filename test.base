@@ -1,6 +1,7 @@
 views:
   - type: table
     name: представление
+    sort: []
   - type: table
     name: представление 2
     filters:
