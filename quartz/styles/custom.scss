@@ -62,3 +62,7 @@ p > img:is([width="16"], [width="20"], [width="24"], [width="28"], [width="32"],
   display: inline;
   transform: none;
 }
+
+article iframe.static {
+  pointer-events: none;
+}
