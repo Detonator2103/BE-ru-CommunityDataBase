@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: представление
+  - type: table
+    name: представление 2
+    filters:
+      or:
+        - file.inFolder("content")
+        - file.name == "TECHNICAL"
