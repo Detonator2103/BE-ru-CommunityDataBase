@@ -55,6 +55,10 @@ BE: Community DataBase (CDB или КДБ) — это информационна
 > **Помощь с редактированием:**
 > Dasty (Дасти)
 > > Телеграм: `@Dasty_7777` ([ссылка](http://t.me/Dasty_7777))
+>
+> **Помощь с ассетами и информацией:**
+> Half (Халф)
+> > Телеграм: `@Half133` ([ссылка](http://t.me/Half133))
 
 > [!HINT] Обратная связь
 > Открыто пишите Дето или другим редакторам по любым вопросам: **проблемы**, **уточнения**, **репорт багов**, **фидбек**, **предложения**. Каждое обращение по делу помогает развитию проекта и радует лично нас!
@@ -70,21 +74,21 @@ BE: Community DataBase (CDB или КДБ) — это информационна
 # Ссылки
 
 > **Новости Community DataBase:**
-> 1. [Телеграм-канал Дето](https://t.me/deto_archive) — личный канал не конкретно про CDB, но его обновления и детали разработки выкладываю туда
+> 1. [Телеграм-канал Дето](https://t.me/deto_archive) — мой личный канал. Не только про CDB, но его обновления и детали разработки выкладываю туда
 
 > **Сообщества Bullet Echo:**
-> 1. [Телеграм новостной канал](https://t.me/bulletecho) (ру)
-> 2. [Телеграм группа](https://t.me/bulletecho_chat) (основное для ру)
-> 3. [Discord](https://discord.gg/u4ApPB7) (основное для англ)
-> 4. [Facebook](https://www.facebook.com/bulletechogame)
-> 5. [Instagram](https://www.instagram.com/bullet_echo)
-> 6. [X (Twitter)](https://twitter.com/bulletecho)
-> 7. [Reddit](https://www.reddit.com/r/BulletEchoGame)
-> 8. [Youtube](https://www.youtube.com/c/BulletEcho)
+> 2. [Телеграм новостной канал](https://t.me/bulletecho) (ру)
+> 3. [Телеграм группа](https://t.me/bulletecho_chat) (основное для ру)
+> 4. [Discord](https://discord.gg/u4ApPB7) (основное для англ)
+> 5. [Facebook](https://www.facebook.com/bulletechogame)
+> 6. [Instagram](https://www.instagram.com/bullet_echo)
+> 7. [X (Twitter)](https://twitter.com/bulletecho)
+> 8. [Reddit](https://www.reddit.com/r/BulletEchoGame)
+> 9. [Youtube](https://www.youtube.com/c/BulletEcho)
 
 > **Игра:**
-> 1. [Сайт Поддержки ZeptoLab](https://zepto.helpshift.com/hc/ru/10-bullet-echo) — официальные статьи от разработчиков на технические и базовые темы
-> 2. [Установить Bullet Echo](https://zep.tl/PlayBulletEcho)
+> 10. [Сайт Поддержки ZeptoLab](https://zepto.helpshift.com/hc/ru/10-bullet-echo) — официальные статьи от разработчиков на технические и базовые темы
+> 11. [Установить Bullet Echo](https://zep.tl/PlayBulletEcho)
 
 ---
 # Политика использования
