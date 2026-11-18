@@ -23,8 +23,8 @@ cite {
 
   & a {
     display: block;
-    width: 10rem;
-    height: 2.5rem;
+    width: 6.7rem;
+    height: 2rem;
     max-width: 100%;
     background: url("static/logo.png") no-repeat left center / contain;
     font-size: 0;
@@ -72,3 +72,15 @@ article iframe.static {
 }
 
 .drive-preview::after { display: none; }
+
+@media all and (max-width: 800px) {
+  .sidebar.left .spacer {
+    flex: 0 0 0.5rem;            // маленький отступ вместо растяжки
+  }
+  .sidebar.left .flex-component {
+    flex: 1 1 auto;              // панель с поиском и кнопками занимает остаток строки
+  }
+  .search {
+    max-width: none;             // поиск растягивается, а не оставляет пустоту справа
+  }
+}

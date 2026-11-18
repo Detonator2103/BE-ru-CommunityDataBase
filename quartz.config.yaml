@@ -210,7 +210,7 @@ plugins:
   - source: "@quartz-community/breadcrumbs"
     enabled: true
     options:
-      rootName: "Главная"
+      rootName: Главная
     layout:
       position: beforeBody
       priority: 5
@@ -287,6 +287,14 @@ plugins:
     layout:
       position: left
       priority: 50
+  - source: github:Detonator2103/quartz-becdb-toolbar-extras
+    enabled: true
+    options: {}
+    order: 50
+    layout:
+      position: left
+      priority: 25
+      group: toolbar
 layout:
   groups:
     toolbar:

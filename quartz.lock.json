@@ -12,6 +12,12 @@
       "resolved": "https://github.com/Detonator2103/quartz-becdb-toc-drawer.git",
       "commit": "e30448e42f2bf30d02be7325ad1d06c1e271ea8f",
       "installedAt": "2026-10-31T16:19:36.986Z"
+    },
+    "quartz-becdb-toolbar-extras": {
+      "source": "github:Detonator2103/quartz-becdb-toolbar-extras",
+      "resolved": "https://github.com/Detonator2103/quartz-becdb-toolbar-extras.git",
+      "commit": "3516a544f1f2ec8f9b3305100183e8d7d34f69b9",
+      "installedAt": "2026-11-18T12:10:56.255Z"
     }
   }
 }
