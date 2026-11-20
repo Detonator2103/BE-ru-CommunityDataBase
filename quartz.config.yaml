@@ -289,12 +289,32 @@ plugins:
       priority: 50
   - source: github:Detonator2103/quartz-becdb-toolbar-extras
     enabled: true
-    options: {}
+    options:
+      languageLabel: "Язык (скоро)"
+      themeMenuLabel: "Тема оформления"
+      lightLabel: "Светлая"
+      darkLabel: "Тёмная"
+      soonLabel: "скоро"
+      extraThemes: # рабочие темы: base = на какую из двух встроенных они опираются
+        - { id: "buttons", label: "Кнопки", base: "dark" }
+      placeholderThemes: [] # заглушки в списке (пустой список = без заглушек)
+      defaultTheme: "dark" # тема для первого визита; пусто = как раньше (по настройке системы)
     order: 50
     layout:
       position: left
       priority: 25
       group: toolbar
+  - source: github:Detonator2103/quartz-becdb-explorer-skin
+    enabled: true
+    options:
+      theme: buttons
+      variants: [wip, new, important]
+      rowHeight: 20px
+      edge: 30px
+    order: 50
+    layout:
+      position: left
+      priority: 60
 layout:
   groups:
     toolbar:

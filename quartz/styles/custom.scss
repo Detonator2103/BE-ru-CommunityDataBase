@@ -84,3 +84,16 @@ article iframe.static {
     max-width: none;             // поиск растягивается, а не оставляет пустоту справа
   }
 }
+
+:root[saved-theme="buttons"] {
+  color-scheme: dark;
+  --light: #070d1b;
+  --lightgray: #0c1c3f;
+  --gray: #8fcffb;
+  --darkgray: #8fcffb;
+  --dark: #0c89e5;
+  --secondary: #7a68ff;
+  --tertiary: #8fcffb;
+  --highlight: rgba(123, 92, 209, 0.15);
+  --textHighlight: #b3aa0288;
+}

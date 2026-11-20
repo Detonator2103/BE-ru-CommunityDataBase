@@ -7,6 +7,12 @@
       "commit": "bf8e93766283caab163fc11bc8b5904790a769bc",
       "installedAt": "2026-10-31T20:07:12.014Z"
     },
+    "quartz-becdb-explorer-skin": {
+      "source": "github:Detonator2103/quartz-becdb-explorer-skin",
+      "resolved": "https://github.com/Detonator2103/quartz-becdb-explorer-skin.git",
+      "commit": "3025dcc26459f5b2c7df257bf31cc2e96afae1ce",
+      "installedAt": "2026-11-20T10:16:20.209Z"
+    },
     "quartz-becdb-toc-drawer": {
       "source": "github:Detonator2103/quartz-becdb-toc-drawer",
       "resolved": "https://github.com/Detonator2103/quartz-becdb-toc-drawer.git",
@@ -16,8 +22,8 @@
     "quartz-becdb-toolbar-extras": {
       "source": "github:Detonator2103/quartz-becdb-toolbar-extras",
       "resolved": "https://github.com/Detonator2103/quartz-becdb-toolbar-extras.git",
-      "commit": "3516a544f1f2ec8f9b3305100183e8d7d34f69b9",
-      "installedAt": "2026-11-18T12:10:56.255Z"
+      "commit": "9398101e6efabfe6f6285a6d7ce2b1049f0464ee",
+      "installedAt": "2026-11-20T10:14:08.440Z"
     }
   }
 }
