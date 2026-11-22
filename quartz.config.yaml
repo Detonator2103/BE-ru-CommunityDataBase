@@ -297,7 +297,7 @@ plugins:
       extraThemes: # рабочие темы: base = на какую из двух встроенных они опираются
         - { id: "echo", label: "Эхо", base: "dark" }
       placeholderThemes: [] # заглушки в списке (пустой список = без заглушек)
-      defaultTheme: "dark" # тема для первого визита; пусто = как раньше (по настройке системы)
+      defaultTheme: "echo" # тема для первого визита; пусто = как раньше (по настройке системы)
     order: 50
     layout:
       position: left
