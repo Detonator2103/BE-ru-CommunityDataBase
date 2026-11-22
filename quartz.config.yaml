@@ -252,7 +252,6 @@ plugins:
       includeAll: false
       includedProperties:
         - description
-        - tags
         - aliases
       excludedProperties: []
       hidePropertiesView: false
@@ -296,7 +295,7 @@ plugins:
       darkLabel: "Тёмная"
       soonLabel: "скоро"
       extraThemes: # рабочие темы: base = на какую из двух встроенных они опираются
-        - { id: "buttons", label: "Кнопки", base: "dark" }
+        - { id: "echo", label: "Эхо", base: "dark" }
       placeholderThemes: [] # заглушки в списке (пустой список = без заглушек)
       defaultTheme: "dark" # тема для первого визита; пусто = как раньше (по настройке системы)
     order: 50
@@ -307,9 +306,11 @@ plugins:
   - source: github:Detonator2103/quartz-becdb-explorer-skin
     enabled: true
     options:
-      theme: buttons
-      variants: [wip, new, important]
+      themes:
+        - { id: echo, ends: right }
+      variants: [imp, na, cat, cat_imp, cat_na, folder_imp, folder_na]
       rowHeight: 20px
+      edgeRight: 46px
       edge: 30px
     order: 50
     layout:

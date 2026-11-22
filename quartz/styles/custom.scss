@@ -1,5 +1,72 @@
 @use "./variables.scss" as *;
 
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("static/fonts/Bebas Neue Cyrillic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root[saved-theme="echo"] {
+  color-scheme: dark;
+  --light: #070d1b;
+  --lightgray: #0c1c3f;
+  --gray: #8fcffb;
+  --darkgray: #8fcffb;
+  --dark: #0c89e5;
+  --secondary: #7a68ff;
+  --tertiary: #8fcffb;
+  --highlight: rgba(123, 92, 209, 0.15);
+  --textHighlight: #b3aa0288;
+}
+
+:root[saved-theme="echo"] .explorer-content button,
+:root[saved-theme="echo"] .explorer-content .folder-title {
+  font-family: "Bebas Neue", var(--bodyFont), sans-serif !important;
+  font-weight: 400 !important;
+  font-synthesis: none;
+	text-rendering: geometricPrecision;
+	color: #ffffff;
+	font-size: 1.15rem;
+  line-height: 1.4rem;
+}
+
+:root[saved-theme="echo"] .explorer-content .file-title,
+:root[saved-theme="echo"] .explorer-content a {
+  font-family: "Bebas Neue", var(--bodyFont), sans-serif !important;
+  font-weight: 400 !important;
+  font-synthesis: none;
+	text-rendering: geometricPrecision;
+	color: #19b7dc;
+	font-size: 1.15rem;
+  line-height: 1.4rem;
+}
+
+/* проверка: уберём подсветку фильтром, чтобы увидеть, из-за неё ли размытие */
+:root[saved-theme="echo"] .explorer-content ul li > a:hover,
+:root[saved-theme="echo"] .explorer-content ul li > a.active,
+:root[saved-theme="echo"] .explorer-content .folder-container:hover {
+  filter: none;
+}
+
+// стрелка разворачивания/сворачивания папок
+:root[saved-theme="echo"] .explorer-content .folder-container .folder-icon {
+  color: #ffffff;
+}
+
+// цвет при наведении
+:root[saved-theme="echo"] .explorer-content .folder-container .folder-icon:hover {
+  color: #ffffff;
+}
+
+:root[saved-theme="echo"] body {
+  background-image: url("static/bg/old_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 h1, h2, h3, h4, h5, h6, thead {
   font-family: var(--headerFont), Roboto !important;
 }
@@ -83,17 +150,4 @@ article iframe.static {
   .search {
     max-width: none;             // поиск растягивается, а не оставляет пустоту справа
   }
-}
-
-:root[saved-theme="buttons"] {
-  color-scheme: dark;
-  --light: #070d1b;
-  --lightgray: #0c1c3f;
-  --gray: #8fcffb;
-  --darkgray: #8fcffb;
-  --dark: #0c89e5;
-  --secondary: #7a68ff;
-  --tertiary: #8fcffb;
-  --highlight: rgba(123, 92, 209, 0.15);
-  --textHighlight: #b3aa0288;
 }
